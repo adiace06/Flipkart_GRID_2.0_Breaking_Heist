@@ -254,3 +254,17 @@ if __name__ == "__main__":
         scrape_bundle(user_query, "1")
     else:
         scrape_bundle(user_query, page_count)
+      
+    
+import pandas as pd
+import numpy as np
+data_tshirt = pd.read_csv("men-tshirt.csv")
+filtered_tshirt = data_tshirt[['SN','Name','Rating','Reviews','Price']]
+filtered_tshirt = filtered_tshirt.replace('-',np.nan)
+filtered_tshirt = filtered_tshirt.dropna()
+filtered_tshirt['Rating'] = filtered_tshirt['Rating'].str.replace("\sout of 5 stars", "")
+filtered_tshirt['Reviews'] = filtered_tshirt['Reviews'].astype(int)
+filtered_tshirt['Rating'] = filtered_tshirt['Rating'].astype(float)
+
+filtered_tshirt['Score'] = (filtered_tshirt['Rating']/5)*(filtered_tshirt['Reviews']/filtered_tshirt['Reviews'].sum())
+filtered_tshirt.sort_values('Score',ascending=False).to_csv("sorted_tshirt_100_amazon")
