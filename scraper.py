@@ -3,7 +3,7 @@
 
 # This code Scraps a single query from Amazon | Purpose modifed
 
-from bs4 import BeautifulSoup as soup
+from bs4 import BeautifulSoup as soup # [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 import requests
 import os
 import csv
