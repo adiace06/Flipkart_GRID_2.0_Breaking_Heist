@@ -1,6 +1,9 @@
 # **Flipkart_GRID_2.0_Breaking_Heist**
 Team Breaking_Heist's solution to Flipkart Fashion Trend Prediction challenge for GRID 2.0
 
+# Concept Video has been shared for easy explaination of how the code works.
+Please View this jen-vgjz-anj (2020-08-09 at 10_17 GMT-7) (2).zip
+
 An attempt to bring in Artificial Intelligence for assistance in fashion industry. Our project aims at traversing multiple websites to predict the current as well as upcoming trend envisaged by fashion enthusiasts.
 
 ## WEB SCRAPER 
