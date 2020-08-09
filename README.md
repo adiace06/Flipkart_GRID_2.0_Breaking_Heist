@@ -10,7 +10,7 @@ The user will be prompted to fill in the the type of product he/she shall desire
 The user will them be asked to give a certain number of pages he/she wants to scrape.
 
 The scraper shall return a csv file with filename "Query.csv" in the folder where the code has been executed from. This csv file contains all the details of the product.
-In the same folder Images will start getting downloaded.
+In the same folder Images will start getting scraped and all the images of the products will be saved according to a particular serial number which will be mentioned in the csv created. Therefore a structured dataset is created.
 
 #### scrapper/scrapper
 scrapper/scrapper contains spiders built on [Scrapy](https://scrapy.org/).
