@@ -16,10 +16,10 @@ In the same folder Images will start getting downloaded.
 scrapper/scrapper contains spiders built on [Scrapy](https://scrapy.org/).
 This scraper extracts information from [This Website](https://fashionvignette.blogspot.com/)
 To execute this scraper 
--One has to install [Scrapy](https://docs.scrapy.org/en/latest/intro/install.html). 
--One needs to change FILES_STORE="The complete directory of folder where one wants to install the images" in settings.py
--Change the working directory to scrapper
--Type the command "scrapy crawl pyimagesearch-blog-spider -o output.json"
+- One has to install [Scrapy](https://docs.scrapy.org/en/latest/intro/install.html). 
+- One needs to change FILES_STORE="The complete directory of folder where one wants to install the images" in settings.py
+- Change the working directory to scrapper
+- Type the command "scrapy crawl pyimagesearch-blog-spider -o output.json"
 ```
 scrapy crawl pyimagesearch-blog-spider -o output.json
 ```
