@@ -5,7 +5,7 @@ An attempt to bring in Artificial Intelligence for assistance in fashion industr
 
 ## WEB SCRAPER 
 #### scraper.py
-scraper.py contains code to scrape [Amazon Indian Website](https://www.amazon.in/). 
+scraper.py contains code to scrape [Amazon Indian Website](https://www.amazon.in/), flipkart, zara and other ecommerce websites. 
 The user will be prompted to fill in the the type of product he/she shall desire to scrape details of.
 The user will them be asked to give a certain number of pages he/she wants to scrape.
 
